@@ -35,7 +35,7 @@ namespace StudentGradeApplicationnn
 
             double average = sum/5;
                   
-                label8.Text = (average <= 75.00) ? ("The student passed. \nThe general average of " + name + " is " + average) : label8.Text = ("The student failed. " +  " \nThe general average of " + name + " is " + average);
+                label8.Text = (average >= 75.00) ? ("The student passed. \nThe general average of " + name + " is " + average) : label8.Text = ("The student failed. " +  " \nThe general average of " + name + " is " + average);
 
 
             
